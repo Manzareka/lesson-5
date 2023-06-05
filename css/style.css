@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+main {
+  margin-top: -173px;
+}
+
 .header {
   background-color: #0020f4;
   display: flex;
@@ -35,7 +39,7 @@
   margin-right: 18px;
 }
 
-.contact {
+.list-contact {
   color: #171717;
   background-color: #ffffff;
   font-weight: bold;
@@ -102,6 +106,49 @@
   cursor: pointer;
 }
 
-main {
-  margin-top: -173px;
+.footer {
+  background-color: #0020f4;
+  color: #ffffff;
+  padding-top: 275px;
+  padding-left: 240px;
+}
+
+.footer-contact {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.footer-text {
+  max-width: 463px;
+  margin-bottom: 58px;
+  font-size: 16px;
+}
+
+.google-map {
+  border-radius: 15px;
+  max-width: 463px;
+  height: 200px;
+  margin-bottom: 92px;
+}
+
+.contact-div {
+  display: inline-block;
+  margin-bottom: 206px;
+  margin-right: 98px;
+}
+
+.contact-img {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 22px;
+}
+
+.contact-text {
+  font-size: 22px;
+  display: inline-block;
+}
+
+.all-rights {
+  font-size: 19px;
+  padding-bottom: 40px;
 }
